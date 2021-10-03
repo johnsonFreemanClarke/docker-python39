@@ -1,9 +1,8 @@
 # Install the base requirements for the app.
 # This stage is to support development.
-FROM python:alpine AS base
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
+FROM 3.9-alpine
+WORKDIR /playground
+CMD ["echo", "get in here now"]
 
 # # Run tests to validate app
 # FROM node:12-alpine AS app-base
