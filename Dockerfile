@@ -1,6 +1,6 @@
 # Install the base requirements for the app.
 # This stage is to support development.
-FROM 3.9-alpine
+FROM alpine
 WORKDIR /playground
 CMD ["echo", "get in here now"]
 
